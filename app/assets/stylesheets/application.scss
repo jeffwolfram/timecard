@@ -12,4 +12,8 @@
  *
  *= require_tree .
  *= require_self
+  *= require bootstrap-modal
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "bootstrap-modal";

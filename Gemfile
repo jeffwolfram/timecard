@@ -25,6 +25,14 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+gem 'bootstrap-modal-rails', '~> 2.2', '>= 2.2.5'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'pundit', '~> 1.1'
+
+
+
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -36,9 +44,12 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'factory_bot'
+  gem 'foreman'
+  gem 'rspec-rails', '~> 3.6', '>= 3.6.1'
+  gem 'faker', '~> 1.8', '>= 1.8.4'
 end
 
 group :development do

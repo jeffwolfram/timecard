@@ -12,4 +12,7 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require bootstrap
+//= require bootstrap-modal
+//= require bootstrap-modalmanager
 //= require_tree .
